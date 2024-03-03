@@ -128,7 +128,7 @@ declare type CreateUserParams = {
   };
   
   declare type TransformedImageProps = {
-    image: any;
+    image: any; 
     type: string;
     title: string;
     transformationConfig: Transformations | null;
